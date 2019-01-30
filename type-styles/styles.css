@@ -1,0 +1,157 @@
+body {
+	font-family: 'Merriweather', serif;
+	font-size: 22px;
+}
+
+h1{
+	font-family: 'Merriweather', serif;
+	color: darkred;
+
+	margin-bottom: 0px;
+}
+
+h2{
+	font-size: 18px;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	color: #bbb;
+}
+
+span{
+	color: #bbb;
+	font-family:Bio Sans;
+	font-size: 25px;
+	margin-bottom: 2px;
+}
+
+.label{
+	font-family: arial;
+	color: darkred;
+	font-size: 14px;
+	margin:0px;
+}
+
+.fontweightNormal{
+	font-weight: normal;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.fontweightBold{
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.fontstyleNormal{
+	font-style: normal;
+	font-family: 'Merriweather', serif;
+color: black;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.fontstyleItalic{
+	font-style: italic;
+	font-family: 'Merriweather', serif;
+	color: darkred;
+	font-size: 18px;
+	margin: 0px;
+}
+.letterspacingNormal{
+	letter-spacing: normal;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.letterspacingEM{
+	letter-spacing: .3em;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.letterspacing6EM{
+	letter-spacing: -.06em;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.decorationNone{
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.decorationUnderline{
+	text-decoration: underline;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.decorationLine-through{
+	text-decoration: line-through;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.decorationOverline{
+	text-decoration: overline;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.texttransNone{
+	text-transform: none;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+
+}
+
+.texttransUppercase{
+	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+
+}
+
+.texttransLowercase{
+	text-transform: lowercase;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+
+}
+
+.texttransCapitalize{
+	text-transform: capitalize;
+	font-family: 'Merriweather', serif;
+	color: black;
+	font-size: 18px;
+	margin: 0px;
+
+}
+
+
