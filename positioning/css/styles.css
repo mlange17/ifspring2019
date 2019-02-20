@@ -1,0 +1,36 @@
+
+#firstSection{
+	float: right;
+}
+
+#secondSection{
+	position:absolute;
+	top: 844px;
+	right:50px;
+}
+
+#thirdSection{
+	background-color: green;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	z-index: 20;
+}
+
+#redAside{
+	background-color:red;
+	position: absolute;
+	left: 600px;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
+#blackAside{
+	background-color:black;
+	position: absolute;
+	left: 600px;
+	transform: translate(-50%, -50%);
+	margin-top: 10px;
+    margin-left: 10px;
+	z-index: 1;
+}
