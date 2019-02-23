@@ -1,0 +1,154 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	box-sizing: border-box;
+    }
+
+div{
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.section_3 {
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+}
+
+h1, h2, h3, h4, h5, p{
+	margin-top: 0;
+}
+
+header{
+	text-align: center;
+	background-color: rgba(255,0,0,.5);
+	height: 480px;
+	padding-top: 166px;
+	box-sizing: border-box; /* how we measure the box, the finished size, content box */
+}
+
+header h1{
+	font-size: 80px;
+	margin-bottom: 12px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+.center_column img{
+	float: right;
+    width: 400px;
+    height: 300px;
+    margin: 0 0 20px 40px;
+    border: 1px solid #fff;
+}
+
+.center_column{
+	text-align: left;
+	line-height: 25px;
+	padding-top: 55px;
+	padding-left: 115px;
+	padding-right: 115px;
+	background-color: rgba(255,0,0,.5); 
+	margin: auto;
+	height: 715px;
+	box-sizing: border-box;
+}
+
+
+.center_column h3{
+	padding-bottom: 5px;
+	font-size: 40px;
+	text-align: center;
+}
+
+p{
+	display: block;
+	font-size: 18px;
+}
+
+div{
+	display: block;
+}
+
+
+.content {
+	padding: 40px 0 40px 0;
+	width: 1200px;
+	margin: auto;
+	box-sizing: border-box;
+	border-top: none;
+	border-bottom: none;
+}
+
+.section_3{
+	box-sizing: border-box;
+	
+}
+.section_3 .content{
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+	background-color: rgba(255,0,0,.5);
+	padding-left: 115px;
+	padding-right: 115px;
+	height: 680px;
+	background-position: center center;
+	background-repeat: repeat-x;
+	color: #444;
+	}
+
+h4{
+	padding-top: 40px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.section_3 .content .photo{
+	width: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0 40px 24px 0;
+	clear: both;
+}
+
+.section_3 .content .photo img{
+	width: 200px; 
+	height: 150px;
+	margin: 0 12px 0 0;
+	float: left;
+	width: 50%;
+	display: block;
+}
+
+.section_3 .content .photo h5{
+	font-size: 20px;
+	margin: 0 0 6px 0;
+	padding: 0;
+	display: block;
+
+}
+
+
+.section_3 .photo_text{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.section_4 {
+	border: none;
+	background-color: rgba(255,0,0,.5);
+	/*background-image: url("images/solidColoredBackgroundLight.png");*/
+	background-position: center center;
+	background-repeat: repeat-x;
+	color: #fff;
+}
