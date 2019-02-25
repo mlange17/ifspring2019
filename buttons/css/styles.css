@@ -1,0 +1,669 @@
+<style>
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block; /* to make anchor a button it has to be inline-block or block*/
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block; /* */
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+
+			a#btn_coca-cola img{
+				display: inline-block;
+				padding-top: 50px;
+				width:100%;
+				height: auto;
+  			}
+
+
+  			a#btn_coca-cola img:hover{
+  				 transform: rotate(20deg);
+  				 transform-origin: 20% 40%;
+  			}
+		
+			a#btn_apple img{
+				display: inline-block;
+				padding-top: 20px;
+				width:60%;
+				height: auto;
+				
+			}
+
+			a#btn_apple img:hover{
+				transform: rotateY(180deg);
+				 -webkit-transform: translate(50px, 100px);
+			}
+
+
+
+			a#btn_ibm{
+				display: inline-block;
+				height: 50px;
+				width: 150px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: rgb(31, 112, 193);
+				border: 3px solid black;
+				color: #fff;
+				font-size: 20px;
+				font-family: IBM plex, sans;
+				font-weight: bold;
+				text-decoration:none;
+				text-transform: uppercase;
+			}
+
+			a#btn_ibm:hover{
+				text-decoration: underline;
+				background-color: black;
+			}
+				
+
+			a#btn_nerfhasbro img{
+				display: inline-block;
+				padding-top: 30px;
+				width:70%;
+				height: auto;
+
+			}
+
+			a#btn_nerfhasbro img:hover{ 
+				transition: all 0.5s ease;
+  				background: red;
+  				padding: 10px;
+			}
+			
+
+			/*a#btn_harley-davidson:hover #hd_orange{
+				display: block;
+    			background-color: black;
+  				border: 10px solid black;
+			}*/
+
+			a#btn_harley-davidson img#hd_orange{
+				display: inline-block;
+				padding-bottom: 30px;
+				width:80%;
+				height: auto;
+				z-index: 2;
+
+
+			}
+
+			a#btn_harley-davidson img#hd_black {
+		   		display: inline-block;
+				padding-top: 30px;
+				width:70%;
+				height: auto;
+				z-index: 1;
+			}
+
+
+			a#btn_michaelkors{
+				display: inline-block;
+			    box-sizing: border-box;
+			    margin-top: 35px;
+			    padding: 25px;
+			    padding-top: 60px;
+			    padding-bottom: 60px;
+			    color: black;
+			    font-size: 50px;
+			    font-family: 'Arial', sans-serif;
+			    font-weight: bold;
+			    /*letter-spacing: .1px; How do a lessen spacing??*/
+			    text-decoration: none;
+			    border-radius: 50%;
+			    transition: transform 1s;
+				}	
+
+			a#btn_michaelkors:hover {
+				color: #FFB6C1;
+			    transform: scale(2.0);
+			}
+
+			a#btn_ideo{
+				display: block; 
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: black;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_ideo:hover{
+				display: block; 
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: red;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transform: scale(1.5);
+				content: "IDEO"; /* How do I make text show up below?*/
+			}
+									
+			a#btn_sardellastl{
+				font-family: 'Six Caps', sans-serif;
+			    text-decoration: none;
+			    font-size: 66px;
+			    display: inline-block;
+			    width: 180px;
+			    box-sizing: border-box;
+			    margin: auto;
+			    margin-top: 80px;
+			    padding: 0px 20px 4px 20px;
+			    border-radius: 1px;
+			    color:#2E2EFE ;
+
+			}	
+				
+			a#btn_sardellastl:hover{
+				-webkit-box-shadow: 7px 7px 5px 0px rgba(6, 255, 205, 1);
+				-moz-box-shadow:    7px 7px 5px 0px rgba(6, 255, 205, 1);
+				box-shadow:         7px 7px 5px 0px rgba(6, 255, 205, 1);
+			}
+
+			a#btn_stlouis_craigslist{
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;				    
+			}
+
+			a#btn_stlouis_craigslist:hover{
+				color: #8B008B;
+			}
+
+			a#btn_lyft img{
+			    display: block;
+			    padding-top: 85px;
+			    padding-left: 70px;
+			    width: 50%;
+			    height: auto;
+			}
+
+			a#btn_lyft img:hover{
+				transform: rotate(20deg);
+  				transform-origin: 20% 40%;
+			}
+
+			a#btn_samsung{
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #0c4da2 ;
+				border: 2px solid #0c4da2 ;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_samsung:hover{
+				color: white;
+			    background-color: #010F8C;
+			    animation: shake 0.5s;
+			    animation-iteration-count: infinite;
+				/*color: #fff;
+				background-color: #eb1478;*/
+
+			}
+
+			@keyframes shake {
+				  0% { transform: translate(1px, 1px) rotate(0deg); }
+				  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+				  20% { transform: translate(-3px, 0px) rotate(1deg); }
+				  30% { transform: translate(3px, 2px) rotate(0deg); }
+				  40% { transform: translate(1px, -1px) rotate(1deg); }
+				  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+				  60% { transform: translate(-3px, 1px) rotate(0deg); }
+				  70% { transform: translate(3px, 1px) rotate(-1deg); }
+				  80% { transform: translate(-1px, -1px) rotate(1deg); }
+				  90% { transform: translate(1px, 2px) rotate(0deg); }
+				  100% { transform: translate(1px, -2px) rotate(-1deg); }
+				}
+
+			a#btn_dimecitycycles{
+				display: inline-block;
+			    height: 60px;
+			    box-sizing: border-box;
+			    margin: auto;
+			    margin-top: 105px;
+			    padding: 15px 30px 0 30px;
+			    background-color: #a51d22;
+			    color: #fff;
+			    font-size: 25px;
+			    font-family: 'ChaletComprime', sans-serif;
+			    font-weight: bold;
+			    text-decoration: none;
+			    border-radius: 3px;
+
+			}
+
+			a#btn_dimecitycycles:hover{
+				background: -moz-linear-gradient(45deg, rgba(165,29,34,1) 0%, rgba(64,64,77,1) 53%, rgba(165,29,34,1) 88%, rgba(165,29,34,1) 100%); /* ff3.6+ */
+				background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(165,29,34,1)), color-stop(53%, rgba(64,64,77,1)), color-stop(88%, rgba(165,29,34,1)), color-stop(100%, rgba(165,29,34,1)));
+			}
+
+
+			a#btn_ofa{
+				display: inline-block;
+			    box-sizing: border-box;
+			    height: 110px;
+			    border-radius: 50%;
+			    background-color: #6db3f2;
+			    margin: auto;
+			    margin-top: 80px;
+			    margin-bottom: 100px;
+			    padding: 40px 18px 40px 18px;
+			    color: white;
+			    font-size: 30px;
+			    line-height: 27px;
+			    font-family: 'futura', sans-serif;
+			    font-weight: bold;
+			    font-weight: none;
+			    letter-spacing: -0.07em;
+			    text-decoration: none;
+
+			}
+
+			a#btn_ofa:hover{
+				display: inline-block;
+			    box-sizing: border-box;
+			    height: 110px;
+			    border-radius: 15%;
+			    background-color: #6db3f2;
+			    margin: auto;
+			    margin-top: 80px;
+			    margin-bottom: 100px;
+			    padding: 40px 18px 40px 18px;
+			    color: white;
+			    font-size: 30px;
+			    line-height: 27px;
+			    font-family: 'futura', sans-serif;
+			    font-weight: bold;
+			    font-weight: none;
+			    letter-spacing: -0.07em;
+			    text-decoration: none;	
+
+			}
+
+			a#btn_the-tonight-show img{
+				display: block;
+			    padding-top: 60px;
+			    padding-left: 70px;
+			    width: 50%;
+			    height: auto;
+			}
+
+
+			a#btn_the-tonight-show img:hover{
+				padding-top: 60px;
+			    padding-left: 70px;
+				color: white;
+			    background-color: #white;
+			    animation: shake 0.5s;
+			    animation-iteration-count: infinite;
+			    transform: scale(1.5);
+			}
+
+			a#btn_nike img{
+				display: block;
+			    padding-top: 90px;
+			    padding-left: 70px;
+			    width: 60%;
+			    height: auto;
+			    transition: transform 0.8s;
+    			perspective: 1000px;
+			}
+
+			a#btn_nike img:hover{
+				transform: rotateY(180deg);   
+			}
+
+			a#btn_cartoonnetwork img{
+				display: block;
+			    padding-top: 70px;
+			    padding-left: 60px;
+			    width: 50%;
+			    height: auto;
+			    transition: transform 1s;
+			}
+
+			a#btn_cartoonnetwork img:hover{
+				padding-top: 60px;
+			    padding-left: 45px;
+				transform: scale(2.0);
+			}
+
+			a#btnbissingers img{
+				display: block;
+			    padding-top: 70px;
+			    padding-left:20px;
+			    width: 90%;
+			}
+
+			a#btnbissingers img:hover{
+				transform: scale(1.5) skewY(20deg);
+
+			}
+
+
+
+			a#btn_facebook {
+			    display: block;
+			    margin-top: 45px;
+			    font-size: 130px;
+			    color:#4267b2;
+			    transition: transform .2s;
+			}
+
+			a#btn_facebook i:hover {
+			    color: #4267b2;
+			    transform: scale(1.2);
+			    text-shadow: 2px 2px 5px #1A3360;
+			}
+
+			a#btn_hulkhogan{
+				display: inline-block;
+			    height: 60px;
+			    box-sizing: border-box;
+			    margin: auto;
+			    margin-top: 105px;
+			    padding: 15px 30px 0 30px;
+			    background-color: black;
+			    color: yellow;
+			    font-size: 25px;
+			    font-family: 'Teko', sans-serif;
+			    font-weight: bold;
+			    text-decoration: none;
+			    border-radius: 3px;
+			}
+
+			a#btn_hulkhogan:hover{
+				display: inline-block;
+			    height: 60px;
+			    box-sizing: border-box;
+			    margin: auto;
+			    margin-top: 105px;
+			    padding: 13px 30px 0 30px;
+			    background-color: yellow;
+			    color: black;
+			    font-size: 25px;
+			    font-family: 'Teko', sans-serif;
+			    font-weight: bold;
+			    text-decoration: none;
+			    border-radius: 3px;
+			    border-style: solid;
+			    border-width: 10px: 
+			    border-color: black;
+			}
+
+
+
+			a#btn_teslamotors:hover {
+			    margin-top:45%;
+			    width:20%;
+			    height: auto;
+			    background: url("images/tesla.png") no-repeat;
+			}
+
+
+			a#btn_teslamotors{
+			    width: 20%;
+			    height: auto;
+			    background: url("images/teslaLogo.png") no-repeat;
+			    display: inline-block;
+			    margin-top: 15%;
+			}
+
+
+			
+
+			a#btn_thecolorrun img{
+				display: inline-block;
+				padding-top: 100px;
+				width:80%;
+				height: auto;
+				transition: transform .5s;
+			}
+
+			a#btn_thecolorrun img:hover{
+				transform: scale(1.5) skewY(20deg);
+			}
+
+			a#btn_moo{
+				display: inline-block;
+				margin:auto;
+				margin-top: 60px;
+				padding: 8px 16px;
+				font-size: 80px;
+				font-family: 'Chalkduster';
+				color:green;
+				text-decoration: none;
+				transition: transform 1s;
+			}
+
+			a#btn_moo:hover{
+				color: purple;
+			    transform: scale(1.2);
+			}
+
+			a#btn_pottermore img{
+				display: block;
+			    padding-top: 20px;
+			    padding-left: 10px;
+			    width: 90%;
+			    height: auto;
+    			transition: transform .5s;
+
+			}
+
+			a#btn_pottermore img:hover{
+				transform: scale(1.3) scaleX(-1);
+
+			}
+
+			a#btn_fitbit{
+				display: inline-block;
+			    height: 60px;
+			    box-sizing: border-box;
+			    margin: auto;
+			    margin-top: 105px;
+			    padding: 15px 30px 0 30px;
+			    background: -moz-linear-gradient(181deg, rgba(255,255,255,1) 0%, rgba(3,192,255,1) 23%, rgba(3,192,255,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(3,192,255,1)), color-stop(77%, rgba(3,192,255,1)), color-stop(100%, rgba(255,255,255,1)));
+			    color: #fff;
+			    font-size: 25px;
+			    font-family: 'Roboto', sans-serif;
+			    font-weight: bold;
+			    text-decoration: none;
+			    border-radius: 3px;
+
+			}
+
+			a#btn_fitbit:hover{
+				background: -moz-linear-gradient(358deg, rgba(255,255,255,1) 0%, rgba(3,192,255,1) 23%, rgba(3,192,255,1) 100%); /* ff3.6+ */
+				background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(23%, rgba(3,192,255,1)), color-stop(100%, rgba(3,192,255,1)));
+			}
+
+			a#btn_explodingkittens{
+				display: inline-block;
+			    height: 60px;
+			    box-sizing: border-box;
+			    margin: auto;
+			    margin-top: 105px;
+			    padding: 13px 30px 0 30px;
+			    background-color: white;
+			    color: #A80D1B;
+			    font-size: 25px;
+			    font-family: 'Teko', sans-serif;
+			    font-weight: bold;
+			    text-decoration: none;
+			    border-radius: 3px;
+			}
+
+			a#btn_explodingkittens:hover{
+			    display: inline-block;
+			    height: 60px;
+			    box-sizing: border-box;
+			    margin: auto;
+			    margin-top: 90px;
+			    padding: 15px 30px 60px 30px;
+			    background-color: #A80D1B;
+			    color: white;
+			    font-size: 35px;
+			    font-family: 'Teko', sans-serif;
+			    font-weight: bold;
+			    text-decoration: none;
+			    border-radius: 3px;
+			}
+
+			
+
+
+
+		</style>
