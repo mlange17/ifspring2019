@@ -1,0 +1,140 @@
+body {
+    background-image: url("../images/yogi_buddies.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+a {
+    position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 3px;
+    font-weight:700;
+    text-align: center;
+}
+h2 {
+    margin-top: 0;
+    color: white;
+    text-align: right;
+    padding-right: 35px;
+
+}
+
+span{
+	color:#E91515;
+}
+
+#quote {
+    padding-left: 300px;
+
+}
+
+/*__________________________________________________*/
+
+@media (max-width: 1400px){
+
+h1 {
+    color: white;
+    font-size: 47px;
+    margin-bottom: 3px;
+    font-weight:700;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px .5px #44403F;
+}
+h2 {
+    margin-top: 0;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px .5px #44403F;
+}
+
+span{
+    color:#E91515;
+    text-shadow: none;
+
+}
+
+#quote {
+    padding-top: 490px;
+    padding-left: 350px;
+    width: 650px;
+    text-align: center;
+}
+
+}
+
+@media (max-width: 1100px){
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    padding-right: 60px;
+ 
+}
+
+span{
+    color:#E91515;
+    text-shadow: none;
+
+}
+}
+
+@media(max-width: 950px){
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    padding-right: 60px;
+    font-size: 25px;
+ 
+}
+#quote {
+    padding-top: 490px;
+    padding-left: 180px;
+    width: 550px;
+    
+}
+
+@media(max-width: 700px){
+
+    body{
+    background-position: 40% 50%;
+    width:auto;
+    height: 812px;
+    }
+#quote {
+    padding-top: 490px;
+    padding-left: 60px;
+    width: 550px;
+    }}
+
+ @media(max-width: 375px){
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    padding-right: 60px;
+    font-size: 18px;
+ 
+}
+    
+#quote {
+    padding-left: 10px;
+    padding-bottom: 1px;
+    width: 350px;
+    }
+    }
+
+
