@@ -1,0 +1,320 @@
+
+body, ul, div, img{
+	padding: 0;
+	margin: 0;
+}
+
+span{
+	font-style: italic;
+}
+
+
+.border_left{
+	position: absolute;
+	left: 0px;
+  	top: 0px;
+	z-index:1;
+	width: 30px;
+}
+
+
+.border_right{
+	position: absolute;
+	right: 0px;
+  	top: 0px;
+	z-index:1;
+	width: 30px;
+}
+
+.border_left_2{
+	position: absolute;
+	left: 0px;
+  	top: 710px;
+	z-index:1;
+	width: 30px;
+}
+
+
+.border_right_2{
+	position: absolute;
+	right: 0px;
+  	top: 710px;
+	z-index:1;
+	width: 30px;
+}
+
+.border_left_3{
+	position: absolute;
+	left: 0px;
+  	top: 1420px;
+	z-index:1;
+	width: 30px;
+}
+
+
+.border_right_3{
+	position: absolute;
+	right: 0px;
+  	top: 1420px;
+	z-index:1;
+	width: 30px;
+}
+
+.border_left_4{
+	position: absolute;
+	left: 0px;
+  	top: 2130px;
+	z-index:1;
+	width: 30px;
+}
+
+
+.border_right_4{
+	position: absolute;
+	right: 0px;
+  	top: 2130px;
+	z-index:1;
+	width: 30px;
+}
+
+
+
+
+h1{
+	font-family: 'Fontdiner Swanky', cursive;
+	color: #378BF4;
+	padding-top: 150px;
+
+}
+h2,li{
+	font-family: 'Ubuntu', sans-serif;
+	color: #378BF4;
+	font-size: 16px;
+}
+
+h3{
+font-family: 'Ubuntu', sans-serif;
+color: #EE1D23;
+font-size: 16px;
+
+}
+
+p{
+font-family: 'Arial', sana-serif;
+}
+
+
+.define{
+	font-family: 'Ubuntu', sans-serif;
+	color: #378BF4;
+	font-size: 16px;
+	font-style: normal;
+
+}
+
+.header{
+	display: block;
+	background-color: #EBEBE9;
+	width: 100%;
+	height:  136px;
+	list-style-type: none;
+ 	text-align: right;
+	border-bottom: 3px solid #EE1D23;
+	position: absolute;
+	z-index: 2;
+
+}
+
+
+.header img{
+	position: relative;
+	left: 30px;
+	top: 25px;
+	float: left;
+	width: 270px;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 100px 20px 20px 20px;
+}
+
+.nav .catchphrase{
+	position: relative;
+	font-size: 12px;
+	float: left;
+	text-align: left;
+	left: -240px;
+	padding:100px 20px 20px 0px;
+
+}
+
+a:link{
+	text-decoration: none;
+	color: #378BF4;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #378BF4;
+}
+
+
+a:hover {
+	font-weight: 700;
+}
+
+/*___________BREAK___IN____SECTION!!!!__________*/
+
+#title_section{
+	position:static;
+	text-align: center;
+	display: block;
+	padding-top: 20px;
+	
+
+}
+
+#title_section .abe{
+	width: 65%;
+}
+
+#title_section p{
+
+	text-align: center;
+	width: 72%;
+	display: inline-block;
+	position: center;
+	padding-bottom: 70px;
+}
+
+/*___________BREAK___IN____SECTION!!!!__________*/
+
+.history_1939{
+	padding-left: 120px;
+
+}
+
+.history_1939 h2{
+	font-size: 20px;
+	margin: 0;
+}
+
+.history_1939 h3{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	margin: 0;
+}
+.history_1939 p{
+    text-align: left;
+    width: 40%;
+}
+
+
+.history_1939 img{
+	position: relative;
+	width: 34%;
+	top: -25px;
+    right: 155px;
+    float: right;
+    margin: 0;
+}
+
+
+/*___________BREAK___IN____SECTION!!!!__________*/
+
+
+.history_1949 h3{
+	padding-top: 80px;
+	font-size: 18px;
+	text-align: right;
+	padding-right: 130px;
+
+}
+.history_1949 p{
+    text-align: right;
+    width: 40%;
+    float: right;
+    padding-right: 130px;
+
+}
+
+.history_1949 img{
+	position: relative;
+	width: 28%;
+	top: -10px;
+    left: 10px;
+    float: left;
+    margin: 0;
+    padding-left: 120px;
+
+}
+
+/*___________BREAK___IN____SECTION!!!!__________*/
+
+.history_2000{
+	padding-left: 120px;
+	padding-top: 500px;
+}
+
+.history_2000 h3{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	margin: 0;
+}
+.history_2000 p{
+    text-align: left;
+    width: 43.5%;
+}
+
+
+.history_2000 img{
+	position: relative;
+	width: 38%;
+	top: 0px;
+    right: 150px;
+    float: right;
+    margin: 0;
+}
+
+/*___________BREAK___IN____SECTION!!!!__________*/
+
+
+
+.history_today h3{
+	padding-top: 80px;
+	font-size: 18px;
+	text-align: right;
+	padding-right: 130px;
+
+}
+.history_today p{
+    text-align: right;
+    width: 35%;
+    float: right;
+    padding-right: 130px;
+
+}
+
+.history_today img{
+	position: relative;
+	width: 35%;
+	top: -25px;
+    left: 0px;
+    float: left;
+    margin: 0;
+    padding-left: 120px;
+
+}
+
+
+
+
+
+<a href= "History_link">History</a>
+
